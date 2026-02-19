@@ -27,6 +27,10 @@ export default function WebsiteAnalyzer() {
     setTimeout(() => setMessage(null), 5000);
   };
 
+
+  console.log('currentResult', currentResult)
+  console.log('results', results)
+
   // Clear form
   const clearForm = () => {
     setUrl("");
